@@ -1,0 +1,98 @@
+/* folder open / create using terminal */
+
+> directories change?
+cd "file directories"
+
+> how to back folder?
+../
+
+> how to create file?
+touch "file name"
+
+> how to open folder?
+start .
+
+/* GitHub codes */
+
+> git config check?
+user > git config --get user.name
+email > git config --get user.email
+
+> git config for globally?
+global > user > git config --global user.name "user name"
+global > user > git config --global user.email "user email"
+
+> git initialization?
+git init
+
+> git  status check?
+git status
+
+> add your file in GitHub?
+> dedicated file?
+git add "file name"
+
+> all
+git add
+
+> git comment?
+git commit -m "comment"
+
+> check change status it is only working after change anything you add using git add?
+git log or git log --oneline
+
+> how to back in your dedicated changes?
+git reset --hard (id that can found using git log cmd mean changes check)
+
+> how to check all change status whatever you reset or saved?
+git reflog
+
+> after add file in git tracing if you want to remove or untrack?
+git rm --cached "file name"
+
+> after add file in git if you want to delete file?
+git rm "file name"
+
+> if you want to ignore any file or folder mean git not trac it?
+create a file = .gitignore then what you want to ignore type file name in .gitignore file
+
+> create branch?
+git branch = name
+
+> check your active branch?
+git branch list
+
+> change your branch?
+git switch branch name
+
+> how to check git branch list?
+git branch --list
+
+> delete everything?
+rm -rf
+
+> remove file?
+rm -rf "file name"
+
+> you must use this cmd for deleting branch?
+git branch -d not use capital D if you use smaller -d then if you do not merge your changes then it will warn you otherwise if u use -D then it will direct delete your branch.
+
+> git merge means update everything what changes in your branch = we have to go in main branch where we need to merge all changes then?
+git merge branch name
+> is merge complete then do not need to commit bcs auto merge success always create a comment.
+> if merge conflict then we have to manually change the file data using dedicated branch where we want to merge example : 
+<<<<head
+something > under this code is added or already here something has
+=====
+something > under this line upcoming mean other branch to changed it now we need to change it removing all of those >>, ==, << then we have use git add and then commit for tracking 
+>>>>
+
+> how to change branch name you must have to switched to that branch before change the branch name?
+git branch -m branch name.
+
+>>
+upcoming.
+
+
+
+
