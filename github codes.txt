@@ -59,6 +59,11 @@ create a file = .gitignore then what you want to ignore type file name in .gitig
 > create branch?
 git branch = name
 
+> check branch and switch if the branch not there then it will create autmatice and switch to the branch
+ git checkout
+ or
+ git checkout -b dev-ashik
+
 > check your active branch?
 git branch list
 
